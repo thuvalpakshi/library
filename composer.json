@@ -7,16 +7,16 @@
     "elgg",
     "plugin"
   ],
-  "homepage": "https://github.com/Elgg/Elgg",
+  "homepage": "https://github.com/thuvalpakshi/library",
   "authors": [
     {
-      "name": "Elgg Core Team",
+      "name": "Free to Add Your name ",
       "role": "Developer"
     }
   ],
   "support": {
-    "source": "https://github.com/Elgg/Elgg",
-    "issues": "https://github.com/Elgg/Elgg/issues"
+    "source": "https://github.com/thuvalpakshi/library",
+    "issues": "https://github.com/thuvalpakshi/library/issues"
   },
   "require": {
     "composer/installers": "^2.0"
