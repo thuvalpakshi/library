@@ -1,0 +1,135 @@
+/* Library specific styles */
+.elgg-module-library {
+    margin-bottom: 20px;
+}
+
+.elgg-item-object-library_book {
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.library-book-information {
+    margin: 10px 0;
+}
+
+.library-book-meta {
+    color: #666;
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.library-book-actions {
+    margin-top: 15px;
+}
+
+/* Status indicators */
+.library-status-available {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.library-status-borrowed {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.library-status-requested {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+/* Book listings */
+.elgg-listing-library-book {
+    margin-bottom: 15px;
+}
+
+/* Sidebar menu */
+.elgg-menu-library {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.elgg-menu-library > li {
+    margin-bottom: 5px;
+}
+
+.elgg-menu-library a {
+    display: block;
+    padding: 8px 15px;
+    color: #333;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.elgg-menu-library a:hover,
+.elgg-menu-library a:focus {
+    background-color: #e9ecef;
+    text-decoration: none;
+}
+
+/* Form styles */
+.elgg-form-library-save {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.elgg-form-library-save .elgg-field {
+    margin-bottom: 15px;
+}
+
+.elgg-form-library-save input[type="text"],
+.elgg-form-library-save input[type="number"],
+.elgg-form-library-save textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.elgg-form-library-save label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Book view */
+.library-book-full {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.library-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.library-button-action {
+    color: #fff;
+    background-color: #5897fb;
+    border-color: #357ebd;
+}
+
+.library-button-action:hover {
+    background-color: #3276b1;
+    border-color: #285e8e;
+}

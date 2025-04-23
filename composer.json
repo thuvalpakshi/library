@@ -1,0 +1,27 @@
+{
+  "name": "elgg/library",
+  "type": "elgg-plugin",
+  "description": "A plugin that implements a library to borrow and return books",
+  "license": "GPL-2.0-only",
+  "keywords": [
+    "elgg",
+    "plugin"
+  ],
+  "homepage": "https://github.com/Elgg/Elgg",
+  "authors": [
+    {
+      "name": "Elgg Core Team",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/Elgg/Elgg",
+    "issues": "https://github.com/Elgg/Elgg/issues"
+  },
+  "require": {
+    "composer/installers": "^2.0"
+  },
+  "conflict": {
+    "elgg/elgg": "<5.0"
+  }
+}
